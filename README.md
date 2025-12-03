@@ -4,13 +4,13 @@ Proyek ini adalah sistem pemantauan kualitas udara cerdas berbasis IoT menggunak
 
 Sholeh Afandi Al Hakim (240605110162)
 
-## 🛠️ Fitur Utama
+##  Fitur Utama
 - **Monitoring Real-time:** Suhu, Kelembapan, Gas (CO/CO2), Debu.
 - **Otomatisasi:** Kipas menyala otomatis jika nilai sensor melebihi batas.
 - **IoT Integration:** Monitoring via Aplikasi Blynk / Telegram.
 - **Dual Display:** Data tampil di layar OLED 0.96" dan Smartphone.
 
-## 🔌 Komponen Hardware
+##  Komponen Hardware
 - ESP32 Devkit V1
 - Sensor MQ-135 (Gas)
 - Sensor DHT11 (Suhu)
@@ -19,7 +19,7 @@ Sholeh Afandi Al Hakim (240605110162)
 - OLED SSD1306
 
 
-## 🚀 Cara Menjalankan
+##  Cara Menjalankan
 1. Buka file `IAQ_Monitor.ino` di Arduino IDE.
 2. Install library: `Blynk`, `DHT`, `Adafruit_SSD1306`.
 3. Masukkan Token Blynk dan WiFi Credential pada kode.
